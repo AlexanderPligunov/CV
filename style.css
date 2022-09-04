@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	border: none;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header__container{
+	display: inline-block;
+	padding: 50px;	
+	min-width: 550px;
+	max-width: 550px;
+	color: white;
+	background-color: rgb(32, 32, 32);
+}
+.header__container-image{
+	height: 200px ;
+	width: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin: 0 0 0 115px;
+}	
+.header__container-title{
+	display: inline-block;
+	margin: 20px 0 25px 30px;
+	font-size: 37px;
+}
+.header__container-list{
+	margin: 7px 0 0 46px;
+}
+.header__container-2title,
+.header__container-3title{
+	margin: 20px;
+	text-align: center;
+	font-size: 30px;
+}
